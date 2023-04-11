@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #E3E3E3;
+}
+
+header{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    margin-top: 25px;
+    height: 80px;
+}
+header .retour img{
+    width: 50px;
+    position: relative;
+    left: 80px;
+    top: 13px;
+    opacity: 4.5;
+}
+
+header h1{
+    margin-top: 25px;
+    position: relative;
+    left: 200px;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    color: black;
+    opacity: 4.5;
+}
+
+header h1 span{
+    color: #FFBD2E;
+}
+
+header .recherche{
+    display: flex;
+}
+
+header .recherche form input{
+    width: 160%;
+    height: 35px;
+    margin-left: 100%;
+    margin-top: 20px;
+    padding-left: 40px;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+header .recherche i{
+    position: absolute;
+    left: 520px;
+    top: 55px;
+    color: #FFBD2E;
+}
+
+header  button{
+    width: 8%;
+    height: 35px;
+    margin-left: 35%;
+    background-color: #FFBD2E;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+section{
+    width: 100%;
+    height: 430px;
+    background-color: #fff;
+    margin-top: 20px;
+    display: flex;
+}
+
+section .image img{
+    width: 400px;
+    height: 360px;
+    margin-top: 25px;
+    position: relative;
+    left: 180px;
+}
+
+section .droite{
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+section .droite h1{
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-family:unset;
+}
+
+section .droite .savoir{
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 1.1rem;
+    margin-top: 15px;
+}
+
+section .droite .chiffre{
+    display: flex;
+    margin-top: 20px;
+}
+
+section .droite .chiffre p{
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    margin: 10px;
+}
+section .droite .chif1 p{
+   text-decoration:line-through ;
+}
+
+section .droite .chif3 p{
+    font-size: 1.1rem;
+    border: 1px solid black;
+ }
+
+ section .droite p{
+    font-size: 1.2rem;
+    margin-top: 15px;
+ }
+
+ section .droite .boutton{
+    display: flex;
+    margin-left: 15%;
+    margin-top: 20px;
+ }
+
+ section .droite .boutton button{
+    margin: 15px;
+    width: 25%;
+    height: 35px;
+    background-color: #FFBD2E;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-size: 13px;
+    
+ }
+
+
+
+ footer{
+    width: 100%;
+    height: 350px;
+    background-color: #E3E3E3;
+    display: flex;
+    margin-top: 35px;
+   
+}
+
+footer .logo_sociaux{
+    position: relative;
+    left: 60px;
+    margin-top: 30px;
+}
+
+footer .logo_sociaux img{
+   width: 240px;
+   height: 190px;
+}
+
+footer .logo_sociaux i{
+   position: relative;
+   bottom: -70px;
+   right: 230px;
+   font-size: 30px;
+   margin: 3px;
+   color: #2E3D4E;
+ }
+
+footer h1{
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    text-decoration: underline;
+}
+
+footer .lien1{
+    position: relative;
+    left: 25px;
+    margin-top: 30px;
+}
+
+footer .lien1 ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+footer .lien1 ul li a{
+    font-size: 1.4rem;
+    color: #2E3D4E;
+    text-decoration: none;
+}
+
+footer .lien2{
+    position: relative;
+    left: 100px;
+    margin-top: 30px;
+}
+
+footer .lien2 ul {
+
+    margin-top: 20px;
+}
+
+footer .lien2 ul li a{
+    font-size: 1.4rem;
+    color: #2E3D4E;
+    text-decoration: none;
+}
+
+
+footer .lien3{
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+footer .lien3 p{
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
+
+footer .lien3 form input{
+    width: 80%;
+    min-height: 30px;
+    margin-top: 30px;
+    border: none;
+    padding: 10px;
+    font-size: 1.3rem;
+}
+footer .lien3 form button{
+    width: 120px;
+    position: absolute;
+    bottom: -125px;
+    min-height: 44px;
+    border: none;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    background-color: #2E3D4E;
+    cursor: pointer;
+    color: #fff;
+}
+
+ 

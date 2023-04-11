@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #E3E3E3;
+}
+
+header{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    margin-top: 25px;
+    height: 80px;
+}
+header .retour img{
+    width: 50px;
+    position: relative;
+    left: 80px;
+    top: 13px;
+    opacity: 4.5;
+}
+
+header h1{
+    margin-top: 25px;
+    position: relative;
+    left: 200px;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    color: black;
+    opacity: 4.5;
+}
+
+header h1 span{
+    color: #FFBD2E;
+}
+
+header .recherche{
+    display: flex;
+}
+
+header .recherche form input{
+    width: 160%;
+    height: 35px;
+    margin-left: 100%;
+    margin-top: 20px;
+    padding-left: 40px;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+header .recherche i{
+    position: absolute;
+    left: 520px;
+    top: 55px;
+    color: #FFBD2E;
+}
+
+header  button{
+    width: 8%;
+    height: 35px;
+    margin-left: 35%;
+    background-color: #FFBD2E;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+#rectangle {
+    width: 1040px;
+    height: 360px;
+    background-color: gray;
+    position: relative;
+    margin-left: 10%;
+    margin-top: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+.container{
+    margin-top: 30px;
+    background-color: #E3E3E3;
+    width: 100%;
+    
+}
+
+.container a{
+    font-size: 1.5rem;
+    color: #E3E3E3;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.container .cont1{
+    display: flex;
+    margin-left: 13%;
+}
+
+.container .cont1 img{
+    width: 450px;
+    height: 290px;
+    margin-top: 25px;
+    border-radius: 5px;
+    border: 3px solid #fff;
+    opacity: 0.7;
+    margin: 15px;
+}
+
+.container .cont1 .image1 a{
+    position: absolute;
+    left: 389px;
+    top: 720px;
+}
+
+.container .cont1 .image2 a{
+    position: absolute;
+    left: 828px;
+    top: 750px;
+}
+
+.container .cont2 .image3 a{
+    position: absolute;
+    left: 378px;
+    top: 1120px;
+}
+
+.container .cont2 .image4 a{
+    position: absolute;
+    left: 858px;
+    top: 1120px;
+}
+
+.container .cont2 img{
+    width: 450px;
+    height: 290px;
+    border-radius: 5px;
+    opacity: 0.8;
+    margin: 15px;
+}
+
+.container .cont2{
+    display: flex;
+    margin-left: 13%;
+    margin-top: 10px;
+    
+}
+
+footer{
+    width: 100%;
+    height: 350px;
+    background-color: #E3E3E3;
+    display: flex;
+   
+}
+
+footer .logo_sociaux{
+    position: relative;
+    left: 60px;
+    margin-top: 30px;
+}
+
+footer .logo_sociaux img{
+   width: 240px;
+   height: 190px;
+}
+
+footer .logo_sociaux i{
+   position: relative;
+   bottom: -70px;
+   right: 230px;
+   font-size: 30px;
+   margin: 3px;
+   color: #2E3D4E;
+ }
+
+footer h1{
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    text-decoration: underline;
+}
+
+footer .lien1{
+    position: relative;
+    left: 25px;
+    margin-top: 30px;
+}
+
+footer .lien1 ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+footer .lien1 ul li a{
+    font-size: 1.4rem;
+    color: #2E3D4E;
+    text-decoration: none;
+}
+
+footer .lien2{
+    position: relative;
+    left: 100px;
+    margin-top: 30px;
+}
+
+footer .lien2 ul {
+
+    margin-top: 20px;
+}
+
+footer .lien2 ul li a{
+    font-size: 1.4rem;
+    color: #2E3D4E;
+    text-decoration: none;
+}
+
+
+footer .lien3{
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+footer .lien3 p{
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
+
+footer .lien3 form input{
+    width: 80%;
+    min-height: 30px;
+    margin-top: 30px;
+    border: none;
+    padding: 10px;
+    font-size: 1.3rem;
+}
+footer .lien3 form button{
+    width: 120px;
+    position: absolute;
+    bottom: -694px;
+    min-height: 44px;
+    border: none;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    background-color: #2E3D4E;
+    cursor: pointer;
+    color: #fff;
+}

@@ -24,7 +24,7 @@ header h1 span{
 
 header form input{
     position: relative;
-    left: 280px;
+    left: 230px;
     margin-top: 40px;
     width: 300%;
     min-height: 25px;
@@ -35,14 +35,14 @@ header form input{
 
 header .recherche i{
     position: relative;
-    left: 620px;
+    left: 570px;
     bottom: -50px;
     font-size: 20px;
 }
 
 header .chart {
     position: absolute;
-    left: 1110px;
+    left: 1000px;
     margin-top: 40px;
     display: flex;
 }
@@ -59,7 +59,7 @@ header .chart p a{
 }
 
 header .user{
-    margin-left: 60%;
+    margin-left: 56%;
     margin-top: 40px;
     display: flex;
 }
@@ -143,12 +143,13 @@ section h1{
     text-transform: uppercase;
     font-weight: bolder;
     padding: 15px;
+    text-decoration: underline;
 }
 
 section a{
     position: absolute;
-    left: 480px;
-    bottom: 9px;
+    left: 500px;
+    bottom: -91px;
     color: #2E3D4E;
     font-size: 1.2rem
 }
@@ -183,5 +184,105 @@ section img{
     background-repeat: no-repeat;
 }
 
+footer{
+    width: 100%;
+    min-height: 330px;
+    background-color: #E3E3E3;
+    display: flex;
+}
 
-  
+footer .logo_sociaux{
+    position: relative;
+    left: 60px;
+    margin-top: 30px;
+}
+
+footer .logo_sociaux img{
+   width: 240px;
+   height: 190px;
+}
+
+footer .logo_sociaux i{
+   position: relative;
+   bottom: -70px;
+   right: 230px;
+   font-size: 30px;
+   margin: 3px;
+   color: #2E3D4E;
+ }
+
+footer h1{
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    text-decoration: underline;
+}
+
+footer .lien1{
+    position: relative;
+    left: 25px;
+    margin-top: 30px;
+}
+
+footer .lien1 ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+footer .lien1 ul li a{
+    font-size: 1.4rem;
+    color: #2E3D4E;
+    text-decoration: none;
+}
+
+footer .lien2{
+    position: relative;
+    left: 100px;
+    margin-top: 30px;
+}
+
+footer .lien2 ul {
+
+    margin-top: 20px;
+}
+
+footer .lien2 ul li a{
+    font-size: 1.4rem;
+    color: #2E3D4E;
+    text-decoration: none;
+}
+
+
+footer .lien3{
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+footer .lien3 p{
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
+
+footer .lien3 form input{
+    width: 80%;
+    min-height: 30px;
+    margin-top: 30px;
+    border: none;
+    padding: 10px;
+    font-size: 1.3rem;
+}
+footer .lien3 form button{
+    width: 120px;
+    position: absolute;
+    bottom: -1274px;
+    min-height: 44px;
+    border: none;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    background-color: #2E3D4E;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+
+
